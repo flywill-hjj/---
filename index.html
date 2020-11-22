@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+  <title>小鸽子</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <div class="bigBox">
+    <div class="box">
+      <!-- 来吧来吧拼图开始 -->
+      <div class="ladder">
+        <img class="z01" src="./image/z01.png">
+        <!-- 路线一 -->
+        <!-- 包括的section是为了方便获取节点 -->
+        <section class="path1">
+          <img class="z02" src="./image/z02-03-22-23.png">
+          <img class="z03" src="./image/z02-03-22-23.png">
+          <img class="z04" src="./image/z04-24.png">
+          <img class="z06" src="./image/z06-07.png">
+          <img class="z07" src="./image/z06-07.png">
+          <img class="z08" src="./image/z08.png">
+          <img class="z09" src="./image/z09-z15-z30-x.png">
+        </section>
+
+        <!-- 路线二 -->
+        <section class="path2">
+          <img class="z19" src="./image/z19.png">
+          <img class="z25" src="./image/z11-25-26-27.png">
+          <img class="z26" src="./image/z11-25-26-27.png">
+          <img class="z27" src="./image/z11-25-26-27.png">
+          <img class="z30" src="./image/z09-z15-z30-x.png">
+        </section>
+
+        <!-- 路线三 -->
+        <section class="path3">
+          <img class="z28" src="./image/z28.png">
+          <img class="z24" src="./image/z04-24.png">
+          <img class="z23" src="./image/z02-03-22-23.png">
+          <img class="z22" src="./image/z02-03-22-23.png">
+          <img class="z15" src="./image/z09-z15-z30-x.png">
+        </section>
+
+        <!-- 路线四 -->
+        <section class="path4">
+          <img class="z13" src="./image/z13.png">
+          <img class="z11" src="./image/z11-25-26-27.png">
+          <img class="z10" src="./image/z10.png">
+          <img class="z12" src="./image/z12.png">
+        </section>
+
+        <!-- 背景模块 -->
+        <section class="buildings">
+          <!-- 大风车 -->
+          <img class="z18" src="./image/z18-a.png">
+          <!-- 树 -->
+          <img class="z31" src="./image/z31.png">
+          <!-- 国旗 -->
+          <img class="z34" src="./image/z34.png">
+          <!-- 不知道啥玩意的背景 -->
+          <img class="z14" src="./image/z14.png">
+        </section>
+        <section class="yun">
+          <!-- 云 -->
+          <img class="z29" src="./image/z29.png">
+          <img class="z05" src="./image/z15.png">
+          <img class="z35" src="./image/z35.png">
+          <!-- 山 -->
+          <img class="z36" src="./image/z36.png">
+        </section>
+
+        <!-- 电话号码 -->
+        <section class="phone">
+          <img class="z20 active" src="./image/z20.png">
+          <img class="z21" src="./image/z21-z33.png">
+        </section>
+        <!-- WiFi -->
+        <section class="WiFi">
+          <img class="z32 active" src="./image/z32.png">
+          <img class="z33" src="./image/z21-z33.png">
+        </section>
+        <!-- 金币 -->
+        <section class="gold">
+          <img class="z16 active" src="./image/z16.png">
+          <img class="z17" src="./image/z17.png">
+        </section>
+      </div>
+      <!-- 星球 -->
+      <section class="star">
+        <div class="star_box1">
+          <img class="img" src="./image/duckling/gz1.png" alt="">
+          <span>13912341234</span>
+        </div>
+        <div class="star_box2">
+          <img class="img" src="./image/duckling/gz1.png" alt="">
+          <span>13912341234</span>
+        </div>
+        <div class="star_box3">
+          <img class="img" src="./image/duckling/gz1.png" alt="">
+          <span>13912341234</span>
+        </div>
+      </section>
+      <!-- 我是一只小鸽子 -->
+      <div class="duckling">
+        <img class="img" src="./image/duckling/gz1.png" alt="">
+      </div>
+      <!-- 我是一个小圆点 -->
+      <div class="dot">
+        <div class="ripple-1"></div>
+        <div class="ripple-2"></div>
+        <div class="ripple-3"></div>
+      </div>
+      <!-- 透明图层蒙版，不让用户点击 -->
+      <div class="mark"></div>
+
+      <!-- 用户信息 -->
+      <div class="message">
+        <div class="m_top">
+          <div class="m_top1">
+            <p>2020年</p>
+            <h2>通信账单</h2>
+          </div>
+        </div>
+        <!-- 向上滑动手机 -->
+        <div class="upPhone">
+          <p>向上滑动手机<br />赢取新春礼券</p>
+          <div class="upArrow">
+            <img src="./image/arrow.png" alt="">
+            <img src="./image/arrow.png" alt="">
+            <img src="./image/arrow.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- end -->
+      <div class="div_end">
+        <div class="end_top">
+          <p>2020您的年度账单<br />综合得分为<span>87.8分</span></p>
+          <p>战胜了您的三位好友，赢得了88元流量券！</p>
+        </div>
+        <span class="button look">
+          <img src="./image/return.png" alt="">
+          查看账单
+        </span>
+        <div class="end_bottom">
+          <span class="button">分享账单</span>
+          <span class="button">领取奖品</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 页面初始化声音 -->
+  <audio class='audio' autoplay>
+    <source src="./mp3/1.mp3">
+  </audio>
+  <!-- 山崩地裂的声音 -->
+  <audio class="audio1" loop>
+    <source src="./mp3/2.mp3">
+  </audio>
+  <!-- 小鸽子走路的声音 -->
+  <audio class="audio2" loop>
+    <source src="./mp3/4.mp3">
+  </audio>
+  <!-- 升天的音乐 -->
+  <audio class="audio3">
+    <source src="./mp3/3.mp3">
+  </audio>
+</body>
+<script src="./js/jquery1.83.min.js"></script>
+<script src="./js/index.js"></script>
+<script>
+  window.onload = function () {
+    //路线图显示
+    $('.ladder').css('display', 'block');
+    //渐出
+    setTimeout(() => {
+      $('.upPhone').fadeIn(2000, "linear");
+    }, 3000)
+    setTimeout(() => {
+      $('.m_top').fadeIn(2000, "linear");
+    }, 1000)
+    $('.yun').fadeIn(3000, 'linear');
+    //小鸽子上滑
+    $('.duckling').animate({
+      bottom: '0.2rem'
+    }, 3000)
+    $('.z01').animate({
+      bottom: '0.03rem'
+    }, 3000)
+    /* 上箭头动画 */
+    var imgs = $('.upArrow img');
+    $.each(imgs, function (index, item) {
+      let t = 1000 - (index + 1) * 300;
+      setTimeout(() => {
+        setInterval(() => {
+          $(item).animate({
+            opacity: 0
+          }, 500, "linear")
+            .animate({
+              opacity: 1
+            }, 500, "linear")
+        }, 1000)
+      }, t)
+    })
+
+    /* 上滑和点击都能触发下一次动画 */
+    var flag3 = true;//判断是否已经执行过一遍函数
+    $('.upArrow').on('touchstart', function (e) {
+      var touch = e.originalEvent;
+      var startX = touch.changedTouches[0].pageX;
+      var startY = touch.changedTouches[0].pageY;
+      $(this).on('touchmove', function (e) {
+        //延迟播放音乐
+        if (flag3) {
+          touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
+          if (touch.pageY - startY < -10) {
+            console.log('上滑');
+            init();
+            //延迟播放音乐
+            setTimeout(() => {
+              console.log(1);
+              playOrPaused1(1);
+            }, 2000)
+            flag3 = false
+          }
+        }
+      })
+      $(this).on('click', function () {
+        if (flag3) {
+          console.log('点击');
+          init();
+          //延迟播放音乐
+          setTimeout(() => {
+            console.log(1);
+            playOrPaused1(1);
+          }, 2000)
+          flag3 = false;
+        }
+      })
+    })
+
+    //页面初始化
+    function init() {
+      //开启动画
+      var audio = document.querySelector('.audio');
+      audio.pause();
+      //隐藏标题
+      $('.m_top').css('display', 'none');
+      showBuilding(sBuildings, buildings, path1, pathBottom[0]);
+      $('.upPhone').css('display', 'none');
+    }
+  }
+</script>
+
+</html>
